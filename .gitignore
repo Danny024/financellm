@@ -1,0 +1,35 @@
+pycache/ 
+*.pyc 
+*.pyo 
+*.pyd 
+.Python 
+*.egg-info/ 
+build/ 
+dist/ 
+*.egg
+venv/ 
+env/ 
+.venv/
+.env 
+.env.local 
+*.env
+*.zip
+ *.tar.gz 
+ *.rar
+.python-version
+.DS_Store 
+Thumbs.db
+.vscode/ 
+.idea/ 
+*.swp
+ *.swo
+ .ipynb_checkpoints/
+ data/train_output.md 
+ train_output.md 
+ eval.csv 
+ vector_db/
+ .vscode/ 
+ .idea/ 
+ *.swp 
+ *.swo
+ __pycache__/
