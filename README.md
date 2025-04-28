@@ -19,14 +19,17 @@ Built with LangChain, FAISS, and Ollama (`deepseek-r1:1.5b`, `nomic-embed-text`)
 * **Ollama Integration:** Local LLMs for cost-effective inference.
 * **Vector Store:** FAISS-based document retrieval with persistent indices.
 
-### Demo Video
-
-![Alt Text](financellm.gif)
-
 
 ### System Architecture
 
 ![Alt Text](architecture.png)
+
+
+
+### Demo Video
+
+![Alt Text](financellm.gif)
+
 
 
 
