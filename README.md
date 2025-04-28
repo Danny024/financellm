@@ -1,5 +1,8 @@
 ### FinanceLLM
 
+
+
+
 FinanceLLM is a Retrieval-Augmented Generation (RAG) system for financial question-answering, enabling users to query financial metrics from structured data (e.g., `train.json`). It supports queries like percentage changes in net cash, net income, and total revenue, providing step-by-step reasoning and robust evaluation metrics. The project offers a Streamlit web interface (`app.py`) for interactive use and a Jupyter notebook (`notebook.ipynb`) for development and analysis.
 
 Built with LangChain, FAISS, and Ollama (`deepseek-r1:1.5b`, `nomic-embed-text`), FinanceLLM processes JSON data into a vector store, retrieves relevant documents, and generates accurate answers. The evaluation system (`evaluator.py`) computes metrics such as correctness, precision, recall, hit rate, and NDCG, with results saved to `evaluation_results.csv` and `mean_retrieval_metrics.csv`. Docker support ensures easy deployment.
@@ -15,6 +18,11 @@ Built with LangChain, FAISS, and Ollama (`deepseek-r1:1.5b`, `nomic-embed-text`)
 * **Docker Support:** Containerized setup for consistent deployment.
 * **Ollama Integration:** Local LLMs for cost-effective inference.
 * **Vector Store:** FAISS-based document retrieval with persistent indices.
+
+### Demo Video
+
+![Alt Text](financellm.gif)
+
 
 
 
