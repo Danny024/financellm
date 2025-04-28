@@ -66,7 +66,7 @@ financellm/
 The `evaluator.py` script evaluates the RAG system’s performance on questions derived from `train.json`, producing detailed per-question results (`evaluation_results.csv`) and aggregated retrieval metrics (`mean_retrieval_metrics.csv`). Below is a summary of findings based on the aggregated metrics, followed by an explanation of each parameter.
 
 
-### Evaluation Metrics Summary (Rounded)
+### Evaluation Metrics Summary (Approximated Value)
 
 | k   | mean_precision_at_k | mean_recall_at_k| mean_hit_rate_at_k  | mean_ndcg_at_k  |
 | :-: | :-----------------: |:---------------:| :-----------------: | :-------------: |
