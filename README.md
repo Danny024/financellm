@@ -24,6 +24,10 @@ Built with LangChain, FAISS, and Ollama (`deepseek-r1:1.5b`, `nomic-embed-text`)
 ![Alt Text](financellm.gif)
 
 
+### System Architecture
+
+![Alt Text](architecture.png)
+
 
 
 ### Evaluation Metrics and Findings
